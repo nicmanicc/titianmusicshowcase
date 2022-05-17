@@ -1,0 +1,100 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.navContainer {
+    position: absolute;
+    width: 180%; height: 100%;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+}
+.linkContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.logo {
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 10px;
+}
+.palm {
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    opacity: 0.3;
+}
+.clock {
+    position: absolute;
+    height: 50%;
+    right: -10%;
+    top: -20%;
+    opacity: 0.2;
+}
+.backgroundImage {
+    position: fixed;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100%);
+    transition: all 1s ease;
+}
+.divider {
+    position: relative;
+    right: 50%;
+    margin-right: -50%;
+    font-size: 220px;
+}
+a {
+    text-decoration: none;
+    font-size: 220px;
+    margin: 15% auto;
+    color: black;
+
+}
+a:hover {
+    color: black;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: all 0.5s ease;
+    
+}
+.subTitleBottom {
+    bottom: 31.5%;
+}
+.subTitleTop {
+    top: 34%;
+}
+.subTitleTop, .subTitleBottom {
+    display: inline-block;
+    position: absolute;
+    font-size: 65px;
+    z-index: -1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 251, 249);
+    animation: strokeWidth 0.5s ease-in-out infinite;
+}
+
+@keyframes strokeWidth {
+    0% {
+        -webkit-text-stroke-width: 1px;
+    }
+    50% {
+        -webkit-text-stroke-width: 2px;
+    }
+    100% {
+        -webkit-text-stroke-width: 1px;
+    }
+}
