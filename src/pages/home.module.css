@@ -4,16 +4,6 @@
     height: 100vh;
     overflow: hidden;
 }
-.navContainer {
-    position: absolute;
-    width: 180%; height: 100%;
-    text-align: center;
-    font-weight: 500;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 20%;
-}
 .linkContainer {
     height: 100%;
     display: flex;
@@ -55,7 +45,7 @@
     margin-right: -50%;
     font-size: 220px;
 }
-a {
+.link {
     text-decoration: none;
     font-size: 220px;
     margin: 15% auto;

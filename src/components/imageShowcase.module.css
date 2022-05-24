@@ -1,0 +1,38 @@
+.container {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    margin: 0 20px;
+}
+.image {
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    
+    background-color: rgb(250, 250, 250);
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s ease;
+    color: white;
+}
+.overlay:hover {
+    opacity: 1;
+    backdrop-filter: blur(6px);
+}
+.links {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    width: 80px;
+    margin: 0 20px;
+    
+}
