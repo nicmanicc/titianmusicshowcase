@@ -51,7 +51,7 @@ function Music() {
     ]
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>RELEASES</h1>
+            <h1 className={styles.title}>DISCOVER</h1>
             <img className={styles.palm} src={BackgroundPalm} />
             <img className={styles.logo} src={Logo} />
             <img className={styles.clock} src={Clock} />
