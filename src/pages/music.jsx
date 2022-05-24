@@ -6,6 +6,9 @@ import LetMeSee from '../assets/letmesee-showcase.png';
 import YouMe from '../assets/youme-showcase.png';
 import PerfectTiming from '../assets/perfecttiming-showcase.png';
 import ImageShowcase from '../components/imageShowcase';
+import BackgroundPalm from '../assets/PALM-COLOURED.png';
+import Logo from '../assets/titian-logo.png';
+import Clock from '../assets/clock.png';
 
 function Music() {
     const titianSongs = [
@@ -49,6 +52,9 @@ function Music() {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>RELEASES</h1>
+            <img className={styles.palm} src={BackgroundPalm} />
+            <img className={styles.logo} src={Logo} />
+            <img className={styles.clock} src={Clock} />
             <Slider>
                 <div className={styles.imageContainer}>
                     {
