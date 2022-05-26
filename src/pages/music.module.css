@@ -19,9 +19,9 @@
 .title {
     position: absolute;
     left: 50%;
-    top: -5%;
+    top: 2%;
     transform: translate(-50%, -50%);
-    font-size: 220px;
+    font-size: 120px;
     text-shadow: 0px 20px 15px rgba(0,0,0,0.2);
 }
 .links {

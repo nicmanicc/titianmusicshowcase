@@ -19,7 +19,7 @@ function Home() {
 
     const [xR, xG, xB] = [245, 159, 160]; //Background color starting from the left
     const [r, g, b] = [xR-51, xG-197, xB-195]; //get differences between rgb values
-    const changeBackground = { //change background color from RGB: (255, 236, 206) to RGB: (213, 207, 235)
+    const changeBackground = { //change background color from RGB: (245, 159, 160) to RGB: (51, 197, 195)
         backgroundColor: `rgb(${xR - r * mousePos}, ${xG - g * mousePos}, ${xB - b * mousePos})`
     };
     //Change background image when the mouse enters certain section of screen

@@ -52,7 +52,7 @@
     color: black;
 
 }
-a:hover {
+.link:hover {
     color: black;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
