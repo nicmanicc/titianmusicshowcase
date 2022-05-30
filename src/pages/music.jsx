@@ -7,8 +7,9 @@ import YouMe from '../assets/youme-showcase.png';
 import PerfectTiming from '../assets/perfecttiming-showcase.png';
 import ImageShowcase from '../components/imageShowcase';
 import BackgroundPalm from '../assets/PALM-COLOURED.png';
-import Logo from '../assets/titian-logo.png';
 import PalmDown from '../assets/palm-down.png';
+import Logo from '../components/logo';
+import Heading from '../components/heading';
 
 function Music() {
     const titianSongs = [
@@ -51,9 +52,9 @@ function Music() {
     ]
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>DISCOVER</h1>
+            <Logo />
+            <Heading name='DISCOVER'/>
             <img className={styles.palm} src={BackgroundPalm} />
-            <img className={styles.logo} src={Logo} />
             <img className={styles.clock} src={PalmDown} />
             <Slider>
                 <div className={styles.imageContainer}>

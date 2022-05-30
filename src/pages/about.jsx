@@ -1,12 +1,13 @@
 import BackgroundImageTitian from '../assets/titian-aboutme.png';
 import Waveform from '../assets/waveform.png';
 import styles from './about.module.css';
+import Heading from '../components/heading';
 
 function About() {
     return (
         <div>
             <img className={styles.backgroundImage} src={BackgroundImageTitian} />
-            <h1 className={styles.heading}>ABOUT</h1>
+            <Heading name='ABOUT'/>
             <div className={styles.bio}>
                 <img className={styles.waveform} src={Waveform} />
                 <h1 className={styles.subTitle}>LET THE <span className={styles.musicSpan}>MUSIC</span> TAKE YOU AWAY.</h1>
