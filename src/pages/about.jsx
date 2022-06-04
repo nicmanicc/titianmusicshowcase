@@ -2,10 +2,12 @@ import BackgroundImageTitian from '../assets/titian-aboutme.png';
 import Waveform from '../assets/waveform.png';
 import styles from './about.module.css';
 import Heading from '../components/heading';
+import Logo from '../components/logo';
 
 function About() {
     return (
-        <div>
+        <div className={styles.container}>
+            <Logo />
             <img className={styles.backgroundImage} src={BackgroundImageTitian} />
             <Heading name='ABOUT'/>
             <div className={styles.bio}>

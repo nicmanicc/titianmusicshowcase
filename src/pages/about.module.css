@@ -1,3 +1,7 @@
+.container {
+    background-color: rgb(245, 159, 160);
+    height: 100vh;
+}
 .backgroundImage {
     position: absolute;
     height: 60%;
@@ -22,7 +26,8 @@
 }
 .socials {
     text-decoration: none;
-    color: rgb(51, 197, 195);
+    color: white;
+    font-weight: bolder;
 }
 .musicSpan {
     color: rgb(51, 197, 195);

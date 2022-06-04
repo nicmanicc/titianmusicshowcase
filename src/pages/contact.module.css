@@ -8,30 +8,93 @@
     display: flex;
     flex-wrap: nowrap;
 }
-.infoContainer, .contactForm {
-    border: 1px solid black;
-    border-radius: 5px;
+.container {
+    height: 100vh;
 }
 .infoContainer {
-    flex: 0 0 50%;
+    border-radius: 10px 0 0 10px;
+}
+.contactForm {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 0 10px 10px 0;
+}
+.infoContainer {
+    flex: 0 0 40%;
+    background-image: url('../assets/titian-studio2.jpg');
+    background-size: cover;
+    background-position: 0 70%;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    position: relative;
+}
+.infoContainer div {
+    flex-basis: calc(100% / 3 - 40px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 20px 10px;
+    font-size: 9px;
+}
+.icon {
+    width: 20px;
+}
+.contactInfo {
+    margin: 0;
 }
 .contactForm {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 50%;
+    flex: 0 0 60%;
     justify-content: center;
     align-content: center;
     flex-direction: column;
 }
-.contactForm > * {
-    
+.button {
+    width: 20%;
+    padding: 5px;
+    align-self: center;
+    background-color: #00a081;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
 }
 .smallInput, .bigInput {
+    margin: 10px 0;
+    padding: 5px;
+    border: 0;
+}
+.smallInput:focus, .bigInput:focus {
+    outline: none;
+}
+.smallInput:focus {
+    border-bottom: 1px solid #00a081;
+    box-shadow: 0 5px 5px -5px #00a081;
+}
+.bigInput:focus {
+    box-shadow: 0 0 5px #00a081;
+}
+.smallInput {
     width: 70%;
+    border-bottom: 1px solid gray;
 }
 .bigInput {
+    width: 70.5%;
     height: 40%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    resize: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}   
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
 }

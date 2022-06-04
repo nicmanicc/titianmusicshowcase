@@ -5,9 +5,9 @@ import styles from './home.module.css';
 import bgImg from '../assets/titian-studio.jpg';
 import bgImg2 from '../assets/titian2.jpg';
 import bgImg3 from '../assets/titian-studio-1.jpg';
-import Logo from '../assets/titian-logo.png';
 import BackgroundPalm from '../assets/palm.png';
 import Clock from '../assets/clock.png';
+import Logo from '../components/logo';
 
 function Home() {
     const [mousePos, setMousePos] = useState(0.2);
@@ -41,7 +41,7 @@ function Home() {
 
     return (
         <div onMouseMove={mouseMovement} style={changeBackground} className={styles.container}>
-            <img className={styles.logo} src={Logo} />
+            <Logo />
             <img className={styles.palm} src={BackgroundPalm} />
             <img className={styles.clock} src={Clock} />
             <img style={{opacity: image === 'about' ? '0.4' : '0' }} className={styles.backgroundImage} src={bgImg} />

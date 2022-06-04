@@ -4,7 +4,6 @@
     left: 10px;
     top: 10px;
 }
-.container > * {
-    margin: 0;
-    font-size: 15px;
+.logo {
+    width: 50px;
 }
