@@ -36,3 +36,29 @@
     margin: 0 20px;
     
 }
+@media only screen and (min-width: 320px) {
+    .image {
+        height: 20vh;
+    }
+    .logo {
+        width: 20px;    
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .image {
+        height: 30vh;
+    }
+    .logo {
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .image {
+        height: 40vh;
+    }
+    .logo {
+        width: 40px;
+    }
+}

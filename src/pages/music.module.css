@@ -57,5 +57,8 @@
     .imageContainer {
         flex-wrap: wrap;
         overflow-y: scroll;
+        position: absolute;
+        height: 80%;
+        bottom: 0;
     }
-  }
+}
