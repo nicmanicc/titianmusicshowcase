@@ -14,7 +14,7 @@ function Home() {
     const [image, setImage] = useState('about');
     
     const mouseMovement = (e) => {
-        setMousePos(e.pageX / window.innerWidth); // Pos of mouse on whole screen
+            setMousePos(e.pageX / window.innerWidth); // Pos of mouse on whole screen
     }
 
     const [xR, xG, xB] = [245, 159, 160]; //Background color starting from the left
@@ -49,22 +49,22 @@ function Home() {
             <img style={{opacity: image === 'contact' ? '0.4' : '0' }} className={styles.backgroundImage} src={bgImg3} />
             
             <Slider>
-                <div onMouseOver={() => setBackgroundImage('about')} className={styles.linkContainer}>
-                    <Link className={styles.link} to="/about">ABOUT</Link>
+                <div  className={styles.linkContainer}>
+                    <Link onMouseOver={() => setBackgroundImage('about')} className={styles.link} to="/about">ABOUT</Link>
                     <h1 className={styles.subTitleTop}>WRITTEN</h1>
                     <h1 className={styles.subTitleBottom}>PRODUCED</h1>
                 </div>
                 
-                <div onMouseOver={() => setBackgroundImage('music')} className={styles.linkContainer}>
-                    <Link className={styles.link} to="/music">MUSIC</Link>
+                <div className={styles.linkContainer}>
+                    <Link onMouseOver={() => setBackgroundImage('music')} className={styles.link} to="/music">MUSIC</Link>
                     <h1 className={styles.subTitleTop}>BY</h1>
                     <h1 className={styles.subTitleBottom}>BY</h1>
                 </div>
                 
-                <div onMouseOver={() => setBackgroundImage('contact')} className={styles.linkContainer}>
-                    <Link className={styles.link} to="/contact">CONTACT</Link>
-                    <h1 className={styles.subTitleTop}>TITIAN</h1>
-                    <h1 className={styles.subTitleBottom}>J.TAJOR</h1>
+                <div className={styles.linkContainer}>
+                    <Link onMouseOver={() => setBackgroundImage('contact')} className={styles.link} to="/contact">CONTACT</Link>
+                    <h1 className={styles.subTitleTop2}>TITIAN</h1>
+                    <h1 className={styles.subTitleBottom2}>J.TAJOR</h1>
                 </div>
             </Slider>
 

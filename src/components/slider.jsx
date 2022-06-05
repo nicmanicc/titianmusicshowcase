@@ -5,10 +5,12 @@ import styles from './slider.module.css';
 
 function Slider(props) {
     const containerRef = useRef(null)
-    const [mouseX, setMouseX] = useState(0.2);
+    const [mouseX, setMouseX] = useState(250);
 
     const mouseMovement = (e) => {
-        setMouseX(e.pageX  / window.innerWidth * containerRef.current.offsetWidth - e.pageX  / 2); //Pos of mouse on screen in relation to container that contains links 
+        if (window.innerWidth > 1200) {
+            setMouseX(e.pageX  / window.innerWidth * containerRef.current.offsetWidth - e.pageX  / 2); //Pos of mouse on screen in relation to container that contains links 
+        }
     }
     
     const scroll = { 

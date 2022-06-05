@@ -8,3 +8,23 @@
     align-items: center;
     margin: 0 20%;
 }
+
+@media only screen and (max-width: 1200px) {
+    .sliderContainer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        transform: translate(0, 0) !important;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
+}
