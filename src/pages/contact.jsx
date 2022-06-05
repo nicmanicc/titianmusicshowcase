@@ -9,7 +9,9 @@ function Contact() {
     return (
         <div className={styles.container}>
             <Logo />
-            <Heading name='CONTACT' />
+            <span className={styles.fontColor}>
+                <Heading name='CONTACT' />
+            </span>
             <div className={styles.contactFormContainer}>
                 <div className={styles.infoContainer}>
                     <img src={titianLogoBig} className={styles.logo} />
