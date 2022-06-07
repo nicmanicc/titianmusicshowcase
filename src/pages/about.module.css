@@ -2,20 +2,26 @@
     background-color: rgb(245, 159, 160);
     height: 100vh;
 }
-.backgroundImage {
+.backgroundImage1, .backgroundImage2 {
+    height: 100%;
     position: absolute;
-    height: 60%;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+}
+.backgroundImage2 {
+    animation: rotate 10s linear infinite;
+}
+.logoImageContainer {
+    width: 30%;
+    height: 40vh;
+    position: relative;
+    margin: 0 auto;
 }
 .bio {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
     margin-left: 10px;
     text-align: center;
+    flex-basis: 50%;
+    align-self: center;
 }
 .subTitle, .para, .socialContainer {
     text-align: left;
@@ -40,4 +46,42 @@
     transform: translate(-50%, -50%);
     font-size: 120px;
     text-shadow: 0px 20px 15px rgba(0,0,0,0.2);
+}
+.flexContainer {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
+}
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-basis: 30%;
+}
+.headset {
+    position: absolute;
+    width: 90%;
+    animation: expand 3.5s ease infinite;
+}
+
+@keyframes expand {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
