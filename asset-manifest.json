@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/titianmusicshowcase/static/css/main.1d3fdf84.css",
+    "main.js": "/titianmusicshowcase/static/js/main.6cd7fdc5.js",
+    "static/media/slowdance-showcase.png": "/titianmusicshowcase/static/media/slowdance-showcase.21880781f5a54df2bd40.png",
+    "static/media/titian-aboutme1.png": "/titianmusicshowcase/static/media/titian-aboutme1.79452ce21024609c01e7.png",
+    "static/media/letmesee-showcase.png": "/titianmusicshowcase/static/media/letmesee-showcase.8b442c6234217b7d0831.png",
+    "static/media/youme-showcase.png": "/titianmusicshowcase/static/media/youme-showcase.1f1194a82f755dc33b9b.png",
+    "static/media/PALM-COLOURED.png": "/titianmusicshowcase/static/media/PALM-COLOURED.ddadf76707b81f85ed70.png",
+    "static/media/perfecttiming-showcase.png": "/titianmusicshowcase/static/media/perfecttiming-showcase.0bdb0cb39c1b25215054.png",
+    "static/media/Fancy-showcase.png": "/titianmusicshowcase/static/media/Fancy-showcase.5b68b11825e8dbce991e.png",
+    "static/media/applemusic.png": "/titianmusicshowcase/static/media/applemusic.7dbdfb38c77a20cefbad.png",
+    "static/media/palm.png": "/titianmusicshowcase/static/media/palm.7f39df9911ae76e3ff9d.png",
+    "static/media/youtube.png": "/titianmusicshowcase/static/media/youtube.465e099c2b8fd7473e2a.png",
+    "static/media/palm-down.png": "/titianmusicshowcase/static/media/palm-down.409aafcf2c5ff186d5fc.png",
+    "static/media/titian-studio.jpg": "/titianmusicshowcase/static/media/titian-studio.fb1f577d114819bf98ec.jpg",
+    "static/media/titian2.jpg": "/titianmusicshowcase/static/media/titian2.b521d50928dbcd457412.jpg",
+    "static/media/titian-studio-1.jpg": "/titianmusicshowcase/static/media/titian-studio-1.0d168f5c00b944555a26.jpg",
+    "static/media/headsetMic.png": "/titianmusicshowcase/static/media/headsetMic.b5371d9fe2655c021864.png",
+    "static/media/clock.png": "/titianmusicshowcase/static/media/clock.a972890bce73c4df2a00.png",
+    "static/media/titian-studio2.jpg": "/titianmusicshowcase/static/media/titian-studio2.992bd8a116894fd7161d.jpg",
+    "static/media/titian-aboutme2.png": "/titianmusicshowcase/static/media/titian-aboutme2.c9a4ac83cc9eb4b32f17.png",
+    "static/media/spotify.png": "/titianmusicshowcase/static/media/spotify.0bb4c1adb100aa24400f.png",
+    "static/media/titianLogoBlack.png": "/titianmusicshowcase/static/media/titianLogoBlack.1633408b7c27e45507f1.png",
+    "static/media/titianLogoBig.png": "/titianmusicshowcase/static/media/titianLogoBig.22f8998a3bfb0616fdd5.png",
+    "index.html": "/titianmusicshowcase/index.html",
+    "main.1d3fdf84.css.map": "/titianmusicshowcase/static/css/main.1d3fdf84.css.map",
+    "main.6cd7fdc5.js.map": "/titianmusicshowcase/static/js/main.6cd7fdc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3fdf84.css",
+    "static/js/main.6cd7fdc5.js"
+  ]
+}
