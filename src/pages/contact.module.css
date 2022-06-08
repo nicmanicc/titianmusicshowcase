@@ -141,10 +141,10 @@
 }
 @media only screen and (min-width: 1200px) {
     .infoContainer div {
-        font-size: 9px;
+        font-size: 14px;
     }
     .contactFormContainer {
-        width: 75%;
+        width: 60%;
     }
     .logo {
         width: 30%;
