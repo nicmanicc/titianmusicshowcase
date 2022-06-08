@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/titianmusicshowcase/static/css/main.1d3fdf84.css",
-    "main.js": "/titianmusicshowcase/static/js/main.6cd7fdc5.js",
+    "main.js": "/titianmusicshowcase/static/js/main.8de23d28.js",
     "static/media/slowdance-showcase.png": "/titianmusicshowcase/static/media/slowdance-showcase.21880781f5a54df2bd40.png",
     "static/media/titian-aboutme1.png": "/titianmusicshowcase/static/media/titian-aboutme1.79452ce21024609c01e7.png",
     "static/media/letmesee-showcase.png": "/titianmusicshowcase/static/media/letmesee-showcase.8b442c6234217b7d0831.png",
@@ -25,10 +25,10 @@
     "static/media/titianLogoBig.png": "/titianmusicshowcase/static/media/titianLogoBig.22f8998a3bfb0616fdd5.png",
     "index.html": "/titianmusicshowcase/index.html",
     "main.1d3fdf84.css.map": "/titianmusicshowcase/static/css/main.1d3fdf84.css.map",
-    "main.6cd7fdc5.js.map": "/titianmusicshowcase/static/js/main.6cd7fdc5.js.map"
+    "main.8de23d28.js.map": "/titianmusicshowcase/static/js/main.8de23d28.js.map"
   },
   "entrypoints": [
     "static/css/main.1d3fdf84.css",
-    "static/js/main.6cd7fdc5.js"
+    "static/js/main.8de23d28.js"
   ]
 }
